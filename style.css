@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+*{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+
+/* Style definition for the navbar */
+
+navbar h1{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 28px;
+    display: block; /* Generates a block box, so that line breaks both before and after the element */
+    text-align: center;
+    color:rgb(0, 54, 127);
+    font-weight: bold;
+}
+
+.nav {
+    background-color: rgb(50, 83, 126);
+    border: 1px solid #ccc; /* Set a border to make it more visible */
+    border-width: 1px 0; /* Will put the border only on the top and down sides */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* This will make all the block centered, won't work if applied only on <li> or <a> */
+    padding: 20px;
+}
+
+    .nav li{
+        font-family: 'Nanum Gothic', sans-serif;
+        font-size: 14px;
+        display: inline; /* inline-block will put it on the side of the previous one, inline make it stays down it */
+    }
+
+    .nav a{
+        color: white;
+        margin: 50px 0;
+    }
+
+
+/* Style definition for the main page */
+
+main {
+    font-family: 'Bangers', sans-serif;
+    text-align: center;
+    margin: 10px 0;
+    display: flex; /* Behaves like a block element and lays out its content according to the flexbox model */
+}
+
+    main img{
+        opacity: 0.35;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+    }
+
+    main h1{
+        font-family: 'Bangers', sans-serif;
+        font-size: 32px;
+        text-align: center;
+        position: absolute;
+        top: 45%;
+        left: 30%;
+    }
+
+    main p{
+        font-family: 'Bangers', sans-serif;
+        font-size: 24px;
+        text-align: center;
+        position: absolute;
+        top: 60%;
+        left:35%;
+    }
+
+
+/* Style definition for the tables of content */
+
+h2{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 18px;
+    display: block; /* Generates a block box, so that line breaks both before and after the element */
+    color:rgb(0, 54, 127);
+    font-weight: bold;
+    padding: 20px 20px;
+}
+
+    table {
+        border: 2px solid rgb(0, 50, 132);
+        width: 650px;
+        margin: 0 auto;
+        text-align: center;
+    }
+  
+    thead {
+        background-color: rgb(50, 83, 126);
+    }
+
+        thead th{
+            color: white;
+        }
+  
+    td {
+        border-top: 1px solid rgb(0, 50, 132);
+    }
+
+a img {
+    display: block;
+    margin-left: 90%;
+    margin-right: 0;
+    padding: 0;
+    width: 2%;
+    margin-top: 35px;
+}
+
+div p {
+    display: block;
+    margin-left: 87.5%;
+    margin-right: 0;
+    margin-top: 0;
+    padding: 0;
+}
